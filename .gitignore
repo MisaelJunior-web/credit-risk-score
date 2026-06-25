@@ -2,7 +2,9 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
-models/*.pkl
+# Permitir os modelos usados pelo app
+!models/model.pkl
+!models/feature_names.pkl
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
